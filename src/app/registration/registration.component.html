@@ -1,0 +1,31 @@
+<div class="img-fluid" alt="Responsive image">
+  <form (ngSubmit)='loginUser()' [formGroup]='loginFormValue'>
+      <h1>Register</h1>
+      
+        <input type="text" placeholder="First name" formControlName='fname'>
+    
+        <div *ngIf="loginFormValue.get('fname').hasError('required') && loginFormValue.get('fname').touched">Fname is required</div>
+        <div *ngIf="loginFormValue.get('fname').hasError('pattern')">**Fname is invalid**</div>
+        <div *ngIf="loginFormValue.get('fname').valid ">**Fname is valid**</div><br>
+    
+  
+        <input type="text" placeholder="Last name" formControlName='lname'>
+        <div *ngIf="loginFormValue.get('lname').hasError('required')&& loginFormValue.get('lname').touched">Lname is required</div><br>
+
+
+        <input type="text" placeholder="Email" formControlName='email'>
+        <div *ngIf="loginFormValue.get('email').hasError('required')&& loginFormValue.get('email').touched">Email is required</div>
+        <div *ngIf="loginFormValue.get('email').hasError('pattern')">**Email is invalid**</div>
+        <div *ngIf="loginFormValue.get('email').valid ">**Email is valid**</div><br>
+    
+        <input type="password" placeholder="Password" formControlName='password'>
+       
+        <div *ngIf="loginFormValue.get('password').valid ">**Password must be less than 8 characters**</div>
+    
+        <div *ngIf="loginFormValue.get('password').hasError('pattern')">**Password is weak**</div>
+        <div *ngIf="loginFormValue.get('password').valid ">**Password is strong**</div>
+        <button [disabled]='loginFormValue.invalid' class="submit">SUBMIT</button>
+    
+      </form>
+    </div> 
+  

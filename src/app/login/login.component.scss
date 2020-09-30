@@ -1,0 +1,136 @@
+// .example-container .mat-form-field + .mat-form-field {
+//     margin-left: 8px;
+   
+//   }
+  
+//   .example-right-align {
+//     text-align: right;
+//   }
+  
+//   input.example-right-align::-webkit-outer-spin-button,
+//   input.example-right-align::-webkit-inner-spin-button {
+//     display: none;
+   
+//   }
+  
+//   input.example-right-align {
+//     -moz-appearance: textfield;
+  
+//   }
+
+.input{
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.input:hover{
+  transform: translateY(-10px);
+}
+  @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+ 
+  h1 {
+    color:rgb(8, 7, 7); ;
+    padding-left: 120px;
+    
+    font-family: 'Grenze Gotisch', cursive;
+  }
+
+
+  .img-fluid {
+    // background-color:rgb(49, 48, 48);
+     
+    // background: -webkit-linear-gradient(left, #2413e9, #9c0505);
+    // margin-top: 3%;
+    // padding: 3%;
+    // border-radius: 2.5rem;
+    background-image: url("../../assets/images/pexels-buenosia-carol-707584.jpg");
+    width: 100%;
+    height: 700px;
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: fixed;
+     background-position: center;
+     margin: 0; 
+  }
+
+  form {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+  //  background-color: #a01b1b;
+   transition:transform 0.5s;
+  //  border-radius: 2.5rem;
+  background: -webkit-linear-gradient(left, #444447, #25c1dd);
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 6rem;
+  
+    color: rgb(12, 11, 11);
+    margin:auto ;
+    border:0;
+    position:absolute;
+   
+    left: 52%;
+    top: 28%;
+    // transform:translate(20%,20%);
+    box-shadow: 2px 3px 15px 8px rgba(255, 255, 255, 0.84);
+   
+    }
+
+    form:hover{
+      transform: translateY(-12px);
+    }
+    
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    // input[type=text], input[type=password] {
+    //     width: 100%;
+    //     padding: 15px;
+    //     margin: 5px 0 22px 0;
+    //     display: inline-block;
+    //     border-color:rgb(8, 8, 8);
+    //     background:0;
+    //     border-radius: 10px;
+    //     color: rgb(8, 8, 8);
+    //   }
+
+      .submit {
+        background-color:0;
+        background: -webkit-linear-gradient(left, #444447, #25c1dd);
+        color: rgb(250, 249, 249);
+        padding: 16px 30px;
+        margin: 8px 0;
+        border: none;
+        width: 100%;
+        transition:transform 0.5s;
+        font-size: 26px;
+        font-family: 'Grenze Gotisch', cursive;
+      }
+
+      .submit:hover{
+        transform: translateY(-10px);
+      }
+      
+  h1 {
+    color:rgb(250, 246, 246); ;
+    padding-left: 120px;
+    font-size: 36px;
+    font-family: 'Grenze Gotisch', cursive;
+  }
+
+      .link{
+        
+        color:white;
+        // margin-top: 13%;
+        // padding: 40%;
+        left: 40%;
+      }
+
+      // button:hover{
+      //   background-color: white;
+      // }

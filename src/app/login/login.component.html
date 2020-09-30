@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<div class="img-fluid">
+<div class="example-container">
+  <form (ngSubmit)='loginUser()' [formGroup]='loginFormValue'>
+    <h1>Login</h1>
+  <mat-form-field appearance="fill" class="input" >
+    <!-- <mat-label>Enter your password</mat-label> -->
+    <input formControlName='password' matInput placeholder=" Enter your password" [type]="hide ? 'password' : 'text'">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    
+  </mat-form-field><br>
+
+    <mat-form-field appearance="fill" class="input">
+      <!-- <mat-label>Enter your email</mat-label> -->
+      <input formControlName='email'  matInput placeholder="pat@example.com"  required>
+      <!-- <mat-error *ngIf="email.invalid"></mat-error> -->
+    </mat-form-field><br>
+    <button [disabled]='loginFormValue.invalid' class="submit">SUBMIT</button><br>
+    <a routerLink="../registration" class="btnForgetPwd" value="Login">Forget Password?</a><br>
+    <a routerLink="../registration" class="link">New User</a>
+
+  </form>
+  </div>
+  </div>
+  <router-outlet></router-outlet>

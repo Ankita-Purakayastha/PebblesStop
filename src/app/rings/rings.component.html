@@ -1,0 +1,28 @@
+
+<div class="img-fluid">
+  <div class="container">
+      
+    <div class="row">   
+       
+        <div *ngFor="let items of product">
+        
+            <div class="col-12">
+            
+                <div class="card">
+                    <img src="{{items.image}}" class="img">
+                   
+                    <!-- <h1>{{items.name}}</h1>
+                    <p class="price">  &#8377;{{items.price}}</p> -->
+    
+    
+                    <!-- <p>{{items.description}}</p> -->
+                    <p> <a routerLink="ringdetails/{{items.id}}" class="btn ">Details</a>
+                    
+                                <button class="btn " type="submit">Add To Cart</button></p>
+                  
+                  </div>
+              </div>
+          </div>
+    </div>
+    </div>
+  </div>

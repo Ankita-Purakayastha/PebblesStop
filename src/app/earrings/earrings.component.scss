@@ -1,0 +1,144 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+  .img-fluid {
+     
+       
+    //   background: -webkit-linear-gradient(left, #444447, #25c1dd);
+    //   margin-top: 5%;
+    //   padding: 3%;
+      // border-radius: 2.5rem;
+      background-image: url("../../assets/images/defocused-image-of-lights-255379.jpg");
+      width: 100%;
+      height: 3500px;
+      // opacity: 0.9;
+      background-size: cover;
+      background-attachment: fixed;
+       background-position: center;
+       margin: 0; 
+    }
+  
+  //   .card-img-top{
+  //       height: 350px;
+  //       width: 348px;
+  //   }
+  
+  //   .card-title{
+  
+      
+  //     font-size: 26px;
+  //     font-family: 'Grenze Gotisch', cursive;
+  //   }
+  
+  //   .btn{
+  //     width: 40%; 
+  //     margin-right:5%;
+  //     margin-left: 5%;
+  //    border-color:rgb(82, 80, 80) ;
+  //     margin-top: 10px;
+  //     color: white;
+  //   }
+
+  //   a:hover{
+  //     background-color: rgb(82, 80, 80);
+  //   }
+
+  //   .card-body{
+  //     // background-color:  rgb(116, 115, 112);
+  //     background: -webkit-linear-gradient(left, #444447, #25c1dd);
+  //     height: 80px;
+  //   }
+  
+  //  .card {
+  // margin-top: 3%;
+  //   }
+
+
+
+
+  .card {
+    height: 370px;
+    // box-shadow: 0 4px 8px 0 rgba(228, 17, 17, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+ background-color: rgb(249, 252, 252);
+    padding: 13px;
+    font-size: 26px;
+     font-family: 'Grenze Gotisch', cursive;
+     margin-top: 5%;
+     transition: transform 0.5s;
+    }
+    .card:hover{
+      transform: translateY(-10px);
+    }
+    
+    .price {
+    color: rgb(10, 10, 10);
+    font-size: 22px;
+    // font-size: 26px;
+   font-family: 'Grenze Gotisch', cursive;
+    }
+
+    h1{
+      padding-top: 8px;
+      font-size: 26px;
+      font-family: 'Grenze Gotisch', cursive;
+    }
+    
+    .card button {
+    padding:10px;
+    border: none;
+    outline: 0;
+    // padding: 12px;
+    color: white;
+    background: -webkit-linear-gradient(left, #444447, #25c1dd);
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    // font-size: 18px;
+    margin-left: 5%;
+    margin-top: 12%;
+    font-size: 18px;
+     font-family: 'Grenze Gotisch', cursive;
+    }
+    a{
+      margin-top: 12%;
+      padding:10px;
+      border: none;
+      outline: 0;
+      // padding: 12px;
+      color: white;
+      background: -webkit-linear-gradient(left, #444447, #25c1dd);
+      text-align: center;
+      cursor: pointer;
+      width: 40%;
+      // font-size: 18px;
+      margin-left: 5%;
+      font-size: 18px;
+       font-family: 'Grenze Gotisch', cursive;
+    }
+
+    a:hover{
+      color: white;
+      background: -webkit-linear-gradient(left, #737375, #03fad1);
+    }
+    
+    .card button:hover {
+      background: -webkit-linear-gradient(left, #737375, #03fad1);
+    }
+    .img{
+    height: 250px;
+    width: 250px;
+    box-shadow: 2px 3px 15px 8px rgba(74, 75, 75, 0.84);
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 12px;
+    margin-left:10%;
+    }
+    *, ::after, ::before {
+    box-sizing: border-box;
+    }
